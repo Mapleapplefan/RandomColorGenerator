@@ -3,6 +3,7 @@ const button = document.querySelector('button');
 const code= document.querySelector('#color-code');
 button.addEventListener('click', () => {
     document.body.style.backgroundColor = 'white';
+    code.style.color = 'black';
     code.innerText = 'white';
     const r = Math.floor(Math.random() * 255);
     const g = Math.floor(Math.random() * 255);
